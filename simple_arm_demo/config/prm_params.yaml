@@ -1,0 +1,6 @@
+arm_demo_node:
+  ros__parameters:
+    step_size: 0.05 # distance step to check connection between nodes
+    neighbor_distance: 0.7 # max distance to connect a node with others
+    samples_number: 600 # number of samples to generate
+    collision_radius: 0.01 # radius for collision checking with the environment​

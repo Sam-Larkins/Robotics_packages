@@ -1,0 +1,5 @@
+arm_demo_node:
+  ros__parameters:
+    planner: RRT
+    solve_time: 2.0 # available time to find solution
+    goal_tolerance: 0.01 # error tolerated by the end point of the path to the goal​
